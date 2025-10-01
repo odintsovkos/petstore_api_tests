@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Build / Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper-downloader.properties
+
+# Logs
+*.log
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Test outputs
+*.tmp
+*.out
+
+# Coverage
+jacoco.exec
+site/
+
+# Misc
+dependency-reduced-pom.xml
