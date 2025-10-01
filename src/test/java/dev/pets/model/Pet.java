@@ -3,12 +3,12 @@ package dev.pets.model;
 import java.util.List;
 
 public class Pet {
-    private Long id;
-    private String name;
-    private String status;
-    private Category category;
-    private List<String> photoUrls;
-    private List<Tag> tags;
+    public Long id;
+    public String name;
+    public String status;
+    public Category category;
+    public List<String> photoUrls;
+    public List<Tag> tags;
 
     public static class Category{
         public Long id;
